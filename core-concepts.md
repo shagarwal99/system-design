@@ -18,8 +18,6 @@ Below are the components that can be used to increase scalabilty:
 1. CDNs(Content Delivery Networks): They can improve scalability by caching and delivering content from servers that are geographically closer to the users, reducing the latency and improving performance
 1. Queuing Systems: They can improve scalability by decoupling components and allowing requests to be processed asynchronously
 
----
-
 ## **Availability**
 
 A system's readiness and accessibility to users at any given point of time is referred to as its Availability.
@@ -42,8 +40,6 @@ Strategies to improve availability:
 1. Load Balancing
 1. Disaster Recovery: Having a comprehensive plan in place to recover the system in case of natural disasters
 1. Scalability
-
----
 
 ## **Consistent hashing**
 
@@ -74,3 +70,4 @@ In order to map keys to the corresponding server, the requests are also evaluate
 > In cases where the hash falls directly to the server, it will belong to that node
 
 Now, assume that server S5 gets added which is placed between S1 and S2. Now only the requests whose hash was lying between S1 and S2 originally need to be re-evaluated. 
+
