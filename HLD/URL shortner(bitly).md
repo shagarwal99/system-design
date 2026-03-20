@@ -23,10 +23,8 @@
 #### High Level Design
 
 ### Users should be able to submit a long URL and get a short URL
-<div style="text-align: center;">
-   <img src="../images/bitly-1.png">
-</div>
-<br>
+![Bitly Design](../images/bitly.jpg)
+
 
 - The user will send a POST request to the server with the original URL, alias and expiration time. After this, the server will
   - Validate the long form URL if it is a valid URL. If the original url is valid, We can ask if the URL provided is already shortened, what will be the next step (generate new short url or return the existing one)
